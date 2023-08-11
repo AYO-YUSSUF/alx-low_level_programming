@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: A C program that prints using write function
- *       write(int fd,const void *buf,size_t count
+ *       write(int fd,const void *buf,size_t count)
  * Return: 1 (error)
 */
 
