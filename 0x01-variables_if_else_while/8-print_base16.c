@@ -14,9 +14,9 @@ int main(void)
 	{
 		putchar(numh);
 
-		/* after 7 we jump till 94; `*/
-		if (numh == 53)
-			numh += 37;
+		/* after 9 we jump till 96; `*/
+		if (numh == 57)
+			numh += 39;
 		numh++;
 	}
 	putchar('\n');
