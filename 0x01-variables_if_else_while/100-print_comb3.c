@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: print - 9, 0, 1
+ * Description: print num1, num2
  * Return: Always 0 (success)
 */
 
