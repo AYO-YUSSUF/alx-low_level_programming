@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int numh = 46; /*46; decimal rep is .*/
+	int numh = 48; /*48; decimal rep is 0*/
 
-	while (numh <= 104) /*104; decimal rep of h*/
+	while (numh <= 102) /*102; decimal rep of f*/
 	{
 		putchar(numh);
 
