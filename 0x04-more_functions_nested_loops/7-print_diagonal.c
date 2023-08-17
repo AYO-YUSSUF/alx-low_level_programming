@@ -16,7 +16,7 @@ void print_diagonal(int n)
 		for (diag = 1; diag <= n; diag++)
 		{
 			for (space = 1; space <= diag; space++)
-				_putchar('_');
+				_putchar(' ');
 			_putchar(92); /* equal to `/` in ASCII*/
 			_putchar('\n');
 		}
