@@ -4,7 +4,7 @@
 
 /**
  * main - generate random password for 101-crackme
- * Return: nil
+ * Return: zero
 */
 
 int main(void)
@@ -19,6 +19,6 @@ int main(void)
 		digit += q;
 		putchar(q);
 	}
-	putchar(2772 - sum);
+	putchar(2772 - digit);
 	return (0);
 }
