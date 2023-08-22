@@ -6,13 +6,13 @@
  * Return: converted integer from string
 */
 
-void _atoi(char *s)
+int _atoi(char *s)
 {
 	unsigned int dig = 0;
 	int sign = 1;
 
 	do {
-		if (*s == `-`)
+		if (*s == '-')
 			sign *= -1;
 		else if (*s >= '0' && *s <= '9')
 			dig = (dig * 10) + (*s - '0')
