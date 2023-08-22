@@ -12,7 +12,7 @@ void _atoi(char *s)
 	int sign = 1;
 
 	do {
-		if (*s == '-')
+		if (*s == `-`)
 			sign *= -1;
 		else if (*s >= '0' && *s <= '9')
 			dig = (dig * 10) + (*s - '0')
