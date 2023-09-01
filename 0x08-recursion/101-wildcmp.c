@@ -5,7 +5,7 @@
  * @s2: the second string
  * Return: pointer past asterisk
 */
-char move_past_star(char *s2)
+char *move_past_star(char *s2)
 {
 	if (*s2 == '*')
 	{
@@ -24,7 +24,7 @@ char move_past_star(char *s2)
  * Return: 1 or 2
 */
 
-int inception(int *s1, int *s2)
+int inception(int *s1, char *s2)
 {
 	int mg = 0;
 
@@ -34,9 +34,9 @@ int inception(int *s1, int *s2)
 	}
 	if (*s1 == *s2)
 	{
-		ret += wildcmp(s1 + 1, s2 + 1);
-		ret += inception(s1 + 1, s2);
+		mg += wildcmp(s1 + 1, s2 + 1);
 	}
+	mg += inception(s1 + 1, s2);
 	return (mg);
 }
 
