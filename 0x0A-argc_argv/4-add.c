@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 
 	for (a = 1; argv[a]; a++)
 	{
-		s = strtol(argv[a], &ptr, 100);
+		s = strtol(argv[a], &ptr, 10);
 		if (*ptr)
 		{
 			printf("Error\n");
