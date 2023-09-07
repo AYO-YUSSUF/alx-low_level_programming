@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _memset - fills memory
+ * *_memset - fills memory
  * @s: pointer
  * @b: constant
  * @n: bytes max
